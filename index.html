@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Welcome </title>
+</head>
+
+<body>
+
+  <!-- Контейнер -->
+  <article class="container">
+
+    <!-- Внутренний блок -->
+    <div class="block">
+      <section class="block__item block-item">
+        <h2 class="block-item__title">У вас уже есть аккаунт?</h2>
+        <button class="block-item__btn user-btn">Войти</button>
+      </section>
+
+      <section class="block__item block-item">
+        <h2 class="block-item__title">У вас нет аккаунта?</h2>
+        <button class="block-item__btn guest-btn">Войти как гость</button>
+      </section>
+    </div>
+
+    <!-- Блок формы -->
+
+    <div class="form-box">
+
+      <form action="#" class="form form_user">
+        <h3 class="form__title">Вход</h3>
+
+        <p><input type="text" class="form__input" placeholder="Имя пользователя"></p>
+        <p><input type="password" class="form__input" placeholder="Пароль"></p>
+        <p><button class="form__btn">Войти</button></p>
+      </form>
+
+      <form action="#" class="form form_guest">
+        <p><button class="form__btn form__btn_guest">Войти</button></p>
+      </form>
+
+    </div>
+
+  </article>
+
+</body>
+
+</html>
